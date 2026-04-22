@@ -1,8 +1,10 @@
-import { ScreenContent } from 'components/ScreenContent';
+// Change from './src/...' to './src/...' (relative to root)
+import { ScreenContent } from './src/components/ScreenContent'; 
 import { StatusBar } from 'expo-status-bar';
 
-import './global.css';
+import './src/global.css'; // Updated path
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+
 
 export default function App() {
   return (
